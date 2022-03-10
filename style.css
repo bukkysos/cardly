@@ -1,0 +1,78 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main {
+  width: 60vw;
+  height: 50vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.card {
+  width: 20rem;
+  height: 20rem;
+  background-color: rgb(223, 193, 193);
+  position: absolute;
+  box-shadow: -21px 1px 22px -7px rgba(0, 0, 0, 0.37);
+  -webkit-box-shadow: -21px 1px 22px -7px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: -21px 1px 22px -7px rgba(0, 0, 0, 0.37);
+  transition: all 0.5s ease;
+}
+
+.card:nth-child(1) {
+  left: 1vw;
+}
+
+.card:nth-child(2) {
+  left: 6vw;
+}
+
+.card:nth-child(3) {
+  left: 11vw;
+}
+
+.card:nth-child(4) {
+  left: 16vw;
+}
+
+.card:nth-child(5) {
+  left: 21vw;
+}
+
+.card:nth-child(6) {
+  left: 26vw;
+}
+
+.chartreuse {
+  background-color: chartreuse;
+}
+
+.chocolate {
+  background-color: chocolate;
+}
+
+.cornflowerblue {
+  background-color: cornflowerblue;
+}
+
+.darkorange {
+  background-color: darkorange;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.darkorchid {
+  background-color: darkorchid;
+}
