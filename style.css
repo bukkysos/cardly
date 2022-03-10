@@ -11,6 +11,7 @@ body {
 }
 
 main {
+  min-width: 350px;
   width: 60vw;
   height: 50vh;
   display: flex;
@@ -19,7 +20,8 @@ main {
 }
 
 .card {
-  width: 20rem;
+  min-width: 15rem;
+  width: 25vw;
   height: 20rem;
   background-color: rgb(223, 193, 193);
   position: absolute;
@@ -30,27 +32,27 @@ main {
 }
 
 .card:nth-child(1) {
-  left: 1vw;
+  left: 6%;
 }
 
 .card:nth-child(2) {
-  left: 6vw;
+  left: 11%;
 }
 
 .card:nth-child(3) {
-  left: 11vw;
+  left: 16%;
 }
 
 .card:nth-child(4) {
-  left: 16vw;
+  left: 21%;
 }
 
 .card:nth-child(5) {
-  left: 21vw;
+  left: 26%;
 }
 
 .card:nth-child(6) {
-  left: 26vw;
+  left: 31%;
 }
 
 .chartreuse {
