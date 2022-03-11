@@ -24,6 +24,7 @@ main {
   width: 25vw;
   height: 20rem;
   background-color: rgb(223, 193, 193);
+  border-radius: 15px;
   position: absolute;
   box-shadow: -21px 1px 22px -7px rgba(0, 0, 0, 0.37);
   -webkit-box-shadow: -21px 1px 22px -7px rgba(0, 0, 0, 0.37);
